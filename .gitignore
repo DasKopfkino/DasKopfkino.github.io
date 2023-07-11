@@ -1,0 +1,5 @@
+# All jekyll caches
+./jekyll-cache/
+
+# All Obsidian caches
+./obsidian/
