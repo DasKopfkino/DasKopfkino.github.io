@@ -1,3 +1,14 @@
-# 블로그를 시작하게 된 계기
+---
+layout: post
+title: 글을 써볼까
+description: 
+date: 2023-07-11
+feature_image: 
+tags: [life, thoughts]
+---
 
-글을 쓰는 것에 대한 관심이 있었다. 이번 계기에 시작한다. 
+세상에는 재주 넘치는 사람들이 많다. 
+<!--more-->
+두번째 문단이다.
+
+세번째 문단이다.

@@ -9,10 +9,10 @@
 lang: en-US
 
 # Site title
-title: "Kopfkino"
+title: "opakes Kopfkino<br>불투명한 상상공간"
 
 # A description of your site for meta tag, search engine results.
-description: "Personal Blog of a Berliner"
+description: "Still alive. With luck. No worry. Thanks."
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
@@ -32,18 +32,16 @@ navigation:
     url: /
   - text: About
     url: /about.html
-  - text: Style Guide
-    url: /style-guide.html
-  - text: Tags
-    url: /tags.html
-  - text: Download
-    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
+  - text: Archive
+    url: /archive.html
+  - text: Contact
+    url: mailto:taekwon.rhee@gmail.com
 
 # The shortname for your Disqus site to enable comments.
-disqus: justgoodthemes
+disqus: opakes-Kopfkino
 
 # Colors
-accent_color: '#2d72d9'
+accent_color: '#760c0c'
 
 # Site footer
 footer:
