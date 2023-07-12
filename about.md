@@ -5,7 +5,7 @@ description: test
 feature_image: 
 ---
 <p>
-<img align="left" src="images/pic1.jpg" style="width:30%; height:auto"  hspace="50" vspace="40">
+<img align="left" src="images/pic1.JPG" style="width:30%; height:auto"  hspace="50" vspace="40">
 </p>
 <p>
 이태권 입니다.<br> 
