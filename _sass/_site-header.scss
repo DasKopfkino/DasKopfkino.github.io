@@ -179,3 +179,15 @@
     padding: 6.375rem 35px 2.5rem;
   }
 }
+
+.music-player-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  /* Additional styling can be added as per your design */
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
