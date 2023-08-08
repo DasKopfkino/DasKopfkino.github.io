@@ -9,7 +9,7 @@
 lang: en-US
 
 # Site title
-title: "opakes Kopfkino<br>불투명한 상상공간"
+title: "opakes Kopfkino"
 
 # A description of your site for meta tag, search engine results.
 description: "Still alive. With luck. No worry. Thanks."
@@ -45,7 +45,7 @@ accent_color: "#760c0c"
 
 # Site footer
 footer:
-  content: "&copy; Scriptor all rights reserved. Theme by [JustGoodThemes](https://www.justgoodthemes.com)."
+  content: "&copy; 2022. <b>Tae Kwon Rhee</b> all rights reserved."
   has_social: true
 
 # Plugins
