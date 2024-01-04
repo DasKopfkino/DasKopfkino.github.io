@@ -9,10 +9,11 @@
 lang: en-US
 
 # Site title
-title: "Das Kopfkino-test"
+title: "Das Kopfkino"
 
 # A description of your site for meta tag, search engine results.
-description: "Still alive. With luck. No worry. Thanks."
+description: 
+#"Still alive. With luck. No worry. Thanks."
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
@@ -30,6 +31,8 @@ google_analytics: "G-H8C1ZHNC63"
 navigation:
   - text: Home
     url: /
+  - text: README
+    url: /readme-page.html
   - text: About
     url: /about.html
   - text: Archive
