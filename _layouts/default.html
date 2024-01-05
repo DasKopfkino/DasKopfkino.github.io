@@ -14,25 +14,9 @@
   <!-- Styles -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+
 </head>
 <body>
-<!-- SCM Music Player https://www.scmplayer.net -->
-<script type="text/javascript" src="https://www.scmplayer.net/script.js" 
-data-config="{'skin':'skins/scmRed/skin.css',
-'volume':50,
-'autoplay':false,
-'shuffle':false,
-'repeat':1,
-'placement':'top',
-'showplaylist':false,
-'playlist':[
-{'title':'Ryuichi Sakamoto - Bibo No Aozora','url':'https://youtu.be/OQo4EosAhvA'},
-{'title':'Ryuichi Sakamoto - Merry Christmas Mr. Lawrence','url':'https://youtu.be/z9tECKZ60zk'},
-{'title':'Nujabes - reflection eternal','url':'https://youtu.be/2wK27xW4OFI'},
-{'title':'Nujabes - reflection eternal','url':'https://youtu.be/2wK27xW4OFI'},
-{'title':'Nujabes - reflection eternal','url':'https://youtu.be/2wK27xW4OFI'},
-]}" ></script>
-<!-- SCM Music Player script end -->
   <div id="page" class="site">
     <div class="inner">
       {% include header.html %}
@@ -48,6 +32,21 @@ data-config="{'skin':'skins/scmRed/skin.css',
   {% endif %}
   <script src="{{ '/assets/js/plugins.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
-
+      <!-- SCM Music Player https://www.scmplayer.net -->
+<script type="text/javascript" src="http://www.scmplayer.net/script.js" data-config="{'skin':'skins/tunes/skin.css',
+'volume':50,
+'autoplay':false,
+'shuffle':false,
+'repeat':1,
+'placement':'bottom',
+'showplaylist':false,
+'playlist':[
+{'title':'Ryuichi Sakamoto - Bibo No Aozora','url':'https://youtu.be/OQo4EosAhvA'},
+{'title':'Ryuichi Sakamoto - Merry Christmas Mr. Lawrence','url':'https://youtu.be/z9tECKZ60zk'},
+{'title':'Nujabes - reflection eternal','url':'https://youtu.be/2wK27xW4OFI'},
+{'title':'Nujabes - reflection eternal','url':'https://youtu.be/2wK27xW4OFI'},
+{'title':'Nujabes - reflection eternal','url':'https://youtu.be/2wK27xW4OFI'},
+]}" ></script>
+<!-- SCM Music Player script end -->
 </body>
 </html>

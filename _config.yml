@@ -44,11 +44,11 @@ navigation:
 disqus: opakes-Kopfkino
 
 # Colors
-accent_color: "#760c0c"
+accent_color: "#011a5b" #"#004078" #"#760c0c"
 
 # Site footer
 footer:
-  content: "&copy; 2022. <b>Tae Kwon Rhee</b> all rights reserved."
+  content: "&copy; 2023. <b>Tae Kwon Rhee</b> all rights reserved."
   has_social: true
 
 # Plugins
