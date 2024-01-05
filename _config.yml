@@ -9,11 +9,10 @@
 lang: en-US
 
 # Site title
-title: "Das Kopfkinooo"
+title: "Das Kopfkino"
 
 # A description of your site for meta tag, search engine results.
-description: 
-#"Still alive. With luck. No worry. Thanks."
+description: "Still alive. With luck. No worry. Thanks."
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""

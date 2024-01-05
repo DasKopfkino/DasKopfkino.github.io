@@ -24,9 +24,53 @@
 */
 
 // Font.
+
+@font-face {
+    font-family: 'TlabShin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.3/TlabShinYBA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hanyoon';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_05@1.0/Hanyoon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '60sSTRIPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/60sSTRIPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mom_to_daughter';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/mom_to_daughter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BookkMyungjo-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Handletter';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_05@1.0/Handletter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 $font: (
-  primary: ("Lato","Helvetica Neue",Helvetica,sans-serif),
-  secondary: ("Noto Serif",Georgia,serif)
+  primary: ("BookkMyungjo-Bd"),
+  secondary: ("Handletter", "Chosunilbo_myungjo")
 );
 
 // Palette.

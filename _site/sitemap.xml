@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/the-advantages-and-disadvantages-of-working-from-home</loc>
+<loc>http://localhost:4000/%EC%98%88%EC%88%A0%EA%B0%80%EC%9D%98-%ED%94%BC</loc>
 <lastmod>2019-01-01T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/Graphic-Designer-On-The-Road</loc>
 <lastmod>2022-01-05T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/%EC%B9%9C%EA%B5%AC-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%95%84%EB%8A%94-%EC%82%AC%EB%9E%8C</loc>
+<lastmod>2023-07-11T00:00:00+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about</loc>
