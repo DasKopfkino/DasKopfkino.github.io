@@ -30,12 +30,12 @@ google_analytics: "G-H8C1ZHNC63"
 navigation:
   - text: Home
     url: /
-  - text: README
-    url: /readme-page.html
   - text: About
     url: /about.html
   - text: Archive
     url: /archive.html
+  - text: Survey
+    url: /survey.html
   - text: Contact
     url: mailto:taekwon.rhee@gmail.com
 
