@@ -12,7 +12,7 @@ lang: en-US
 title: "Das Kopfkino"
 
 # A description of your site for meta tag, search engine results.
-description: "Still alive. With luck. No worry. Thanks."
+description: 아직은 별 것 없는 저의 블로그 입니다.<br>그간의 소식, 생각과 글들이 조만간 올라올 예정입니다.<br>진행중인 <A href="https://taekwon.rsvp/survey.html">Survey</A>에도 참여해주시면 제게 큰 도움이 될 것 같습니다.<br>감사합니다.
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
@@ -21,7 +21,7 @@ baseurl: ""
 url: "https://taekwon.rsvp"
 
 # Favicon
-favicon: images/favicon.png
+favicon: images/favicon-tae.png
 
 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 google_analytics: "G-H8C1ZHNC63"
@@ -47,7 +47,7 @@ accent_color: "#011a5b" #"#004078" #"#760c0c"
 
 # Site footer
 footer:
-  content: "&copy; 2023. <b>Tae Kwon Rhee</b> all rights reserved."
+  content: "&copy; 2024. <b>Tae Kwon Rhee</b> all rights reserved."
   has_social: true
 
 # Plugins
