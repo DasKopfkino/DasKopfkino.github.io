@@ -2,12 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Das Kopfkino</title>
-        <description>아직은 별 것 없는 저의 블로그 입니다.&lt;br&gt;그간의 소식, 생각과 글들이 조만간 올라올 예정입니다.&lt;br&gt;진행중인 &lt;A href=&quot;https://taekwon.rsvp/survey.html&quot;&gt;Survey&lt;/A&gt;에도 참여해주시면 제게 큰 도움이 될 것 같습니다.&lt;br&gt;감사합니다.</description>
+        <description>머릿속 정리정돈을 위해 만든 공간입니다.&lt;br&gt;가끔 생각나면 놀러오세요.&lt;br&gt;간단한 &lt;A href=&quot;https://taekwon.rsvp/survey.html&quot;&gt;Survey&lt;/A&gt;에도 참여해주시고요.&lt;br&gt;Thanks.&lt;br&gt;&lt;br&gt;태권</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 08 Jan 2024 03:21:37 +0100</pubDate>
-        <lastBuildDate>Mon, 08 Jan 2024 03:21:37 +0100</lastBuildDate>
+        <pubDate>Mon, 08 Jan 2024 06:23:02 +0100</pubDate>
+        <lastBuildDate>Mon, 08 Jan 2024 06:23:02 +0100</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
+        
+            <item>
+                <title>Kopfkino에서 팝콘을</title>
+                <description>&lt;p&gt;역시 독일은 프로파간다와 철학의 역사를 가진 나라답게 사소한 말장난에 기발한 재주가 있다. 물론 어떤 독일어 단어는 극악무도한 길이로 인해 밈이 되어 유명하지만, 그렇지 않은 것들도 많다. 독일어에서 복합명사 조어법에 대해 잠깐 말하자면, 좋게 말하면 단순하고 직관적이며 나쁘게 말하면 허무하기 짝이 없는 방식으로 이루어지곤 한다. 
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;예컨대 Augenbutter 라는 단어는 눈(eyes)이라는 뜻의 ‘Augen’과 버터(butter)의 합성어다. 눈버터 라고 하면 바로 알아채기 쉽지 않을거다. 사실 이 단어의 뜻은 ‘눈꼽’이다. 눈에서 나오는 버터라니? 내 눈꼽은 결코 버터만큼 부드럽진 않았던 것 같은데. 지저분한 찝찝함과 찰나의 피식에 이어 알 수 없는 허무함이 찾아온다. 생각보다 꽤 많은 독일어 명사들이 이런 방식으로 조합된다.&lt;/p&gt;
+
+&lt;p&gt;반면 Kopfkino는 내가 듣자마자 (좋은 쪽으로) 꽂혔던 몇몇 독일어 단어들 중 하나다. 머리를 의미하는 ‘Kopf’와 영화관을 의미하는 ‘Kino’의 합성어로, 직역하자면 ‘머릿속 영화관’을 의미한다. 눈꼽 뜻을 가진 단어를 알았을 때 보다는 비교할 수 없을 정도로 거대한 아름다움을 느꼈다. &lt;/p&gt;
+
+&lt;p&gt;우리는 영화를 보러 극장에 간다. 액션, 멜로, 스릴러, 코미디.. 다양한 장르가 있다. 수많은 씬으로 부터 배우의 연기로부터 스토리를 전달받고 감정을 느낀다. 찬란한 스케일과 그래픽으로 전율을 느끼기도 한다. 영화를 겪고 샤워할때 골똘히 망상에 잠기기도 하며 때로는 모험을 하는 꿈을 꾸기도 한다. 이와 같이 머릿속에 넘쳐 흐르는 다양한 경험과 상상, 색깔있는 이야기를 영화와 영화관에 빗대어 ‘Kopfkino’라는 단 한 단어로 정의한 것이다. 자칫 장황해질수도 있는 추상적인 그 느낌을 이렇게 간단히 표현하다니, 이 얼마나 경제적이고 효율적이며 아름답지 않을 수 있는가.&lt;/p&gt;
+
+&lt;p&gt;외국 생활을 오래 하면서 (&lt;del&gt;사실 이제 익숙해서 새롭지 않을 때가 많지만&lt;/del&gt;) 다사다난했고 희로애락도 있었다. 하지만 모든 것을 항상 고이 담아두고 살 수는 없는 법. 하다못해 휴대폰도 용량이 찼다는 알림이 뜨면 앱이든 앨범이든 확인하고 지워야한다. 좋던 나쁘던 그 동안의 input은 너무 많아서 머리가 터질 것 같은데, 그 녀석들을 내 머리 속에서 건강하게 output 할 수 있는 기회가 없었다. 아니 어쩌면, 어떠한 이유로 그 동안 내가 안하거나 못한 것일수도 있겠다. &lt;/p&gt;
+
+&lt;p&gt;복잡한 머릿속 씬들을 어떻게 잘 정리하고 이어붙여서 상영 해버릴 어떤 공간이 필요했던 것 같다. 가치있게 봐줄 관객이 있을지 없을지 모르겠지만, 사실 그건 그렇게 중요한 것이 아닌 것 같기도 하고.&lt;/p&gt;
+
+&lt;p&gt;극장의 시설이나 영화의 질은 기대하지 마시고, 그냥 어느날 갑자기 팝콘이 먹고 싶다면 와도 된다. Kopfkino로.&lt;/p&gt;
+</description>
+                <pubDate>Mon, 01 Jan 2024 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/%E3%85%87%E3%85%87Kopfkino%EC%97%90%EC%84%9C-%ED%8C%9D%EC%BD%98%EC%9D%84</link>
+                <guid isPermaLink="true">http://localhost:4000/%E3%85%87%E3%85%87Kopfkino%EC%97%90%EC%84%9C-%ED%8C%9D%EC%BD%98%EC%9D%84</guid>
+                
+                <category>thoughts</category>
+                
+                
+            </item>
         
     </channel>
 </rss>
