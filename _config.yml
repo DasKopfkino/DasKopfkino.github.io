@@ -12,7 +12,7 @@ lang: en-US
 title: "Das Kopfkino"
 
 # A description of your site for meta tag, search engine results.
-description: 머릿속 정리정돈을 위해 만든 공간입니다.<br>가끔 생각나면 놀러오세요.<br>간단한 <A href="https://taekwon.rsvp/survey.html">Survey</A>에도 참여해주시고요.<br>Thanks.<br><br>태권
+description: 머릿속 정리정돈을 위해 만든 공간입니다.<br>가끔 생각나면 놀러오세요.<br><br>태권
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
