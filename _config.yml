@@ -24,7 +24,7 @@ url: "https://taekwon.rsvp"
 favicon: /images/favicon-tae.png
 
 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-google_analytics: "G-3VHFE8W0N9" #"G-H8C1ZHNC63"
+google_analytics: #"G-3VHFE8W0N9" #"G-H8C1ZHNC63"
 
 # Site navigation - each item must have a title and a url.
 navigation:
