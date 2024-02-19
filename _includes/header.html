@@ -31,3 +31,9 @@
   <p>{{ site.description }}</p>
 </div><!-- .site-description -->
 {% endif %}
+
+{% if site.description_real and site.description_real != "" and page.url == "/" %}
+<div class="site-description-real fadeInDown delay_05s">
+  <p>{{ site.description_real }}</p>
+</div><!-- .site-description-real -->
+{% endif %}

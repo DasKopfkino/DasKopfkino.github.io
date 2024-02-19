@@ -2,6 +2,22 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
+      <loc>http://localhost:4000/%ED%95%9C%EA%B5%AD%EB%B3%B4%EB%8B%A4-%EB%B9%A0%EB%A5%B8-%EC%98%81%ED%99%94-%ED%8C%8C%EB%AC%98(Exhuma)-Pre-final-%ED%9B%84%EA%B8%B0</loc>
+      
+        <lastmod>2024-02-18T00:00:00+01:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
       <loc>http://localhost:4000/%EB%AA%B8%EA%B3%BC-%EB%A7%88%EC%9D%8C%EC%9D%98-%EB%B3%91</loc>
       
         <lastmod>2024-01-22T00:00:00+01:00</lastmod>
