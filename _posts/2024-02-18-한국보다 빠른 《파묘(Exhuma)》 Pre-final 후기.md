@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 한국보다 빠른 영화 《파묘(Exhuma)》 Pre-final 후기
+title: 한국보다 빠른 《파묘(Exhuma)》 Pre-final 후기
 description: "\bA personal review of the movie 《파묘(Exhuma)》"
 date: 2024-02-18
 feature_image: images/2024-02-18/exhuma.jpg
