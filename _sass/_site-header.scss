@@ -91,10 +91,10 @@
 .site-description-real {
   border-bottom: 1px solid _palette(border);
   font-family: _font(primary);
-  font-size: 1em;
+  font-size: 0.7em;
   font-style: normal;
-  padding-bottom: 3.33333rem;
-  padding-top: 2.22222rem;
+  padding-bottom: 1.5rem; /*3.33333*/
+  padding-top: 1.5rem;	/*2.22222*/
 
   @media only screen and (max-width: 600px) {
     font-size: 0.7em;
