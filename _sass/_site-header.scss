@@ -92,14 +92,14 @@
   border-bottom: 1px solid _palette(border);
   font-family: _font(primary);
   font-size: 1em;
-  font-style: italic;
+  font-style: normal;
   padding-bottom: 3.33333rem;
   padding-top: 2.22222rem;
 
   @media only screen and (max-width: 600px) {
-    font-size: 1em;
-    padding-bottom: 2.8125rem;
-    padding-top: 1.875rem;
+    font-size: 0.7em;
+    padding-bottom: 1.5rem; /*2.8125*/
+    padding-top: 1.5rem; /*1.875*/
   }
 
   p {
