@@ -21,6 +21,6 @@ tags:
 
 인터페이스용 미디케이블, 여분의 메쉬헤드, 그리고 다른 사이즈의 드럼스틱 몇 쌍을 말도 안되는 아주 저렴한 가격에 샀다. 폐업 마지막날, 폐장시간에 가까워 간 탓에 아쉽게도 많은 것들이 남아있지는 않았다. 
 
-{% include image_caption.html imageurl="images/2024-03-31/Justmusic3.jpeg" title="Tschüs, Just Music" caption="Tschüs, Just Music" %} 
+{% include image_caption.html imageurl="images/2024-03-31/Justmusic3.jpg" title="Tschüs, Just Music" caption="Tschüs, Just Music" %} 
 
 마지막 방문이라 생각하니 씁쓸하지만, 마지막을 함께했다는 것 또한 어쩌면 행운이지 않을까. 앞으로 이 곳을 대체해 맘 붙일 수 있는데를 찾아야겠다. 자유를 좇아 베를린으로 온 젊은 인디 음악인들의 성지가 이렇게 역사속으로 사라졌다.
