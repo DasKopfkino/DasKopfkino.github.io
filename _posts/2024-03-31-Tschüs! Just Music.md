@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tschüs Just Music
-description: Tschüs Just Music
+title: Tschüs! Just Music
+description: Tschüs! Just Music
 date: 2024-03-31
 feature_image: images/2024-03-31/Justmusic1.jpeg
 tags:
