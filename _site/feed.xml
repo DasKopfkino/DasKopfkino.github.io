@@ -5,17 +5,140 @@
         <description></description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 30 Mar 2024 07:48:20 +0100</pubDate>
-        <lastBuildDate>Sat, 30 Mar 2024 07:48:20 +0100</lastBuildDate>
+        <pubDate>Fri, 19 Apr 2024 00:37:39 +0200</pubDate>
+        <lastBuildDate>Fri, 19 Apr 2024 00:37:39 +0200</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
         
             <item>
+                <title>📣: BGM 배경음악이 들리지 않는다면 슬플 것입니다 🫠🎧</title>
+                <description>&lt;p&gt;여기 내 블로그 BGM 배경음악이 나오지 않는다는 슬프지만 고마운 피드백을 받았다. 내가 아무리 성심 성의를 다해 내 취향을 선곡하더라도 들리지 않는다면 아무 소용이 없다. 아무튼 블로그 BGM을 작동시키는 방법을 소개하겠다. 3분카레 보다 간단하니 따라해보고, 제가 큐레이팅한 아름다운 음악들을 즐기시길 바란다.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;요약하자면, 데스크탑 브라우저의 &lt;code class=&quot;highlighter-rouge&quot;&gt;Javascript&lt;/code&gt; 와 &lt;code class=&quot;highlighter-rouge&quot;&gt;Sound autoplay&lt;/code&gt; 설정을 허용하면 된다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;데스크탑 / 랩 / 태블릿: 
+&lt;br /&gt;PC, Mac, iPadOS, Android 모두 작동 OK.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;모바일 (iPhone / Android..): 
+&lt;br /&gt;안타깝게도 아이폰이나 안드로이드 모바일에서는 기본으로 작동하지 않는다. 하지만 아이폰 Safari 같은 경우 브라우저 세팅에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;데스크탑모드로 보기&lt;/code&gt;를 선택하고 아래 설정을 진행하면 된다. 다만 화면과 해상도가 작으니 추천하지 않는다. 컴퓨터로 방문해주십쇼..&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이제, 아래는 가장 범용적인 세 가지 데스크탑 브라우저에서 설정하는 자세한 방법이다. 설명은 MacOS 기준이며, Windows / Linux / 기타 태블릿PC 에서 설정하는 것 또한 크게 다르지 않을 것이니 설정 탭 구석구석 확인 바랍니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#safari&quot;&gt;Safari&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#chrome&quot;&gt;Chrome&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#edge&quot;&gt;Edge&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이래도 작동이 안된다면 제게 &lt;a href=&quot;https://taekwon.rsvp/contact.html&quot;&gt;연락주세요&lt;/a&gt;..&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;safari&quot;&gt;Safari&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;h6 id=&quot;1-setting-연다&quot;&gt;1. Setting 연다&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/safari1.png&quot; alt=&quot;사파리1&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;2-security-탭에서-javascript를-허용한다&quot;&gt;2. Security 탭에서 Javascript를 허용한다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/safari2.png&quot; alt=&quot;사파리2&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;3-website-탭의-auto-play에서-모든-auto-play를-허용한다&quot;&gt;3. Website 탭의 Auto-play에서 모든 Auto-play를 허용한다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/safari3.png&quot; alt=&quot;사파리3&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;4-새로고침-한-후-상단-바의-아름다운-음악을-즐긴다&quot;&gt;4. 새로고침 한 후, 상단 바의 아름다운 음악을 즐긴다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/bgmbar.png&quot; alt=&quot;bgmbar&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;chrome&quot;&gt;Chrome&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;h6 id=&quot;1-주소창-옆-설정을-클릭한-후-site-settings에-들어간다&quot;&gt;1. 주소창 옆 설정을 클릭한 후, Site settings에 들어간다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/chrome1.png&quot; alt=&quot;크롬1&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;2-javascript와-sound-모두-allow허용-한다&quot;&gt;2. Javascript와 Sound 모두 Allow(허용) 한다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/chrome2.png&quot; alt=&quot;크롬2&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;3-새로고침-한-후-상단-바의-아름다운-음악을-즐긴다&quot;&gt;3. 새로고침 한 후, 상단 바의 아름다운 음악을 즐긴다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/bgmbar.png&quot; alt=&quot;bgmbar&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;edge&quot;&gt;Edge&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;h6 id=&quot;1--settings-클릭&quot;&gt;1.  Settings 클릭&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/edge1.png&quot; alt=&quot;edge1&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;2-cookies-and-site-permission에-들어간-후-media-autoplay를-선택한다&quot;&gt;2. Cookies and Site Permission에 들어간 후, Media autoplay를 선택한다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/edge2.png&quot; alt=&quot;edge2&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;3-allow로-바꾼다&quot;&gt;3. Allow로 바꾼다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/edge3.png&quot; alt=&quot;edge3&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;4-새로고침-한-후-상단-바의-아름다운-음악을-즐긴다-1&quot;&gt;4. 새로고침 한 후, 상단 바의 아름다운 음악을 즐긴다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/bgmbar.png&quot; alt=&quot;bgmbar&quot; /&gt;&lt;/p&gt;
+</description>
+                <pubDate>Thu, 18 Apr 2024 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/Background-Music-Not-Working</link>
+                <guid isPermaLink="true">http://localhost:4000/Background-Music-Not-Working</guid>
+                
+                <category>___NOTICE___</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Tschüs! Just Music</title>
+                <description>&lt;p&gt;2024년 3월 16일 문을 닫았다. 영영 닫았다. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;그 날은 왠지 집에 오는 길 한번 들러볼까 싶다는 느낌이 강하게 들더라니. 매장 내 수많은 박스가 쌓여 있었고, 뭔 일인가 했는데, 아니나 다를까 그건 폐업 창고정리 였던 것이다.&lt;/p&gt;
+
+&lt;p&gt;난 때때로 생각할 것이 많고 마음이 허할때마다 종종 들르는 스팟들이 있다. Savignyplatz에 위치한 굴다리 서점 Bücherbogen, Saturn/Mediamarkt와 같은 전자제품매장, 그리고 Moritzplatz에 위치한 Just Music이다. 이곳들 모두 잠시 속세와 떨어져 좋아하는 것에 집중한 상태로 평온함을 유지할 수 있는 장소라는 공통점이 있다. &lt;/p&gt;
+
+&lt;figure class=&quot;image-card width-wide caption&quot;&gt;
+  &lt;img src=&quot;images/2024-03-31/Justmusic2.jpeg&quot; alt=&quot;Just Music&quot; /&gt;
+  
+  &lt;figcaption class=&quot;caption-text&quot;&gt;Just Music&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;음악을 사랑하는 한 사람으로서 재미있는 것들이 널린 장소다. 5층 달하는 넓은 공간에서 키보드, 드럼과 퍼커션, 기타와 베이스, 신디, 이펙터, 스피커 모든 것을 체험하고 구매할 수 있다. 머물면 시간가는 줄 모른다. 서울로 치면, 종로 2가 삼일대로의 낙원상가라고 생각하면 좋다. 음악인들의 마음의 고향. 그런 곳이다.&lt;/p&gt;
+
+&lt;p&gt;사연을 들어보니, 코로나를 겪고 경쟁사들의 온라인판매가 늘어나면서 운영상 경제적인 어려움이 있었다고 한다. 자본의 논리에서 어쩔 수 없지만, 마음 한 켠에 드는 안타깝고 허전한 마음 또한 감출 수가 없다.&lt;/p&gt;
+
+&lt;p&gt;인터페이스용 미디케이블, 여분의 메쉬헤드, 그리고 다른 사이즈의 드럼스틱 몇 쌍을 말도 안되는 아주 저렴한 가격에 샀다. 폐업 마지막날, 폐장시간에 가까워 간 탓에 아쉽게도 많은 것들이 남아있지는 않았다. &lt;/p&gt;
+
+&lt;figure class=&quot;image-card width-wide caption&quot;&gt;
+  &lt;img src=&quot;images/2024-03-31/Justmusic3.jpg&quot; alt=&quot;Tschüs, Just Music&quot; /&gt;
+  
+  &lt;figcaption class=&quot;caption-text&quot;&gt;Tschüs, Just Music&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;마지막 방문이라 생각하니 씁쓸하지만, 마지막을 함께했다는 것 또한 어쩌면 행운이지 않을까. 앞으로 이 곳을 대체해 맘 붙일 수 있는데를 찾아야겠다. 자유를 좇아 베를린으로 온 젊은 인디 음악인들의 성지가 이렇게 역사속으로 사라졌다.&lt;/p&gt;
+</description>
+                <pubDate>Sun, 31 Mar 2024 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/Tsch%C3%BCs!-Just-Music</link>
+                <guid isPermaLink="true">http://localhost:4000/Tsch%C3%BCs!-Just-Music</guid>
+                
+                <category>thoughts</category>
+                
+                
+            </item>
+        
+            <item>
                 <title>Ryuichi Sakamoto</title>
-                <description>&lt;p&gt;2023년 3월 28일은 음악가 사카모토 류이치의 1주기였다. 멋드러진 뿔테와 백발을 가진 그는 피아노를 기반으로 수많은 음악을 남겼다. 바흐와 드뷔시의 결이 있지만, 동시에 영화음악 / 재즈 / 뉴에이지 / 힙합 / 민속음악 / 실험음악 등 다양한 장르를 아울렀다. 그 중 영화음악으로 쓰인 그의 곡들을 나는 가장 좋아한다. &lt;!--more--&gt;&lt;/p&gt;
+                <description>&lt;p&gt;2024년 3월 28일 어제는 음악가 사카모토 류이치의 1주기였다. 멋드러진 뿔테와 백발을 가진 그는 피아노를 기반으로 수많은 음악을 남겼다. 바흐와 드뷔시의 결이 있지만, 동시에 영화음악 / 재즈 / 뉴에이지 / 힙합 / 민속음악 / 실험음악 등 다양한 장르를 아울렀다. 그 중 영화음악으로 쓰인 그의 곡들을 나는 가장 좋아한다. &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1OZDaRhHHyM?si=0BOvxo_xaQiUP3FR&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;h2 id=&quot;merry-christmas-mr-lawrence-1983&quot;&gt;Merry Christmas Mr. Lawrence (1983)&lt;/h2&gt;
+&lt;h4 id=&quot;merry-christmas-mr-lawrence-1983&quot;&gt;Merry Christmas Mr. Lawrence (1983)&lt;/h4&gt;
 
 &lt;p&gt;이 곡은 너무나 유명해서 꼽지 않을 수 없다. 이 곡은 1983년 작 영화 《전장의 크리스마스(Merry Christmas Mr. Lawrence)》의 스코어였다. 나는 영화를 아직 보지 못했는데, 그 이유는 98년 일본문화개방 이전에 제작된 영화이고, 일본 중심의 태평양전쟁을 다루는 탓에 그 이후에도 국민정서상 정식 개봉이 되지 않았기 때문이다. &lt;/p&gt;
 
@@ -23,7 +146,7 @@
 
 &lt;hr /&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OQo4EosAhvA?si=pkR1yVyJ8AIMdP_B&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;h2 id=&quot;bibo-no-aozora-美貌の靑空-1995&quot;&gt;Bibo No Aozora (美貌の靑空) (1995)&lt;/h2&gt;
+&lt;h4 id=&quot;bibo-no-aozora-美貌の靑空-1995&quot;&gt;Bibo No Aozora (美貌の靑空) (1995)&lt;/h4&gt;
 
 &lt;p&gt;타이틀을 직역하면 Beautiful Blue Sky라는 뜻이다. 이 곡은 알레한드로 이냐리투 (Alejandro Iñárritu) 감독의 영화 《바벨(Babel)》(2006)의 사운드트랙 중 하나로 쓰였다. 영화의 구성은 각기 다른 장소에서 옴니버스식으로 이루어지는데, 그 중 일본 에피소드에서 마지막 시퀀스를 장식할 때 이 곡이 깔린다. &lt;/p&gt;
 
@@ -31,7 +154,7 @@
 
 &lt;hr /&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EZUbmCejdWo?si=Ugr2eoAH47PPncMb&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;h2 id=&quot;the-revenant-main-theme-2015&quot;&gt;The Revenant Main Theme (2015)&lt;/h2&gt;
+&lt;h4 id=&quot;the-revenant-main-theme-2015&quot;&gt;The Revenant Main Theme (2015)&lt;/h4&gt;
 
 &lt;p&gt;숨막힌다. 혹독함은 이미 충분히 깊었지만 더욱 더 극한의 심연으로 끌고 내려간다. 빛은 없고 절망뿐이다.&lt;/p&gt;
 
@@ -39,7 +162,7 @@
 
 &lt;hr /&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CV75dUVP9nw?si=tyZx_5SUH4HkHZD8&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;h2 id=&quot;aqua-2023&quot;&gt;Aqua (2023)&lt;/h2&gt;
+&lt;h4 id=&quot;aqua-1998&quot;&gt;Aqua (1998)&lt;/h4&gt;
 
 &lt;p&gt;고레에다 히로카즈 감독의 영화 《괴물(怪物)》(2023) 의 사운드트랙으로 쓰여 25년만에 다시 빛을 봤다. 영화 말미 아이들이 겪어왔던 치열한 성장드라마의 대미를 청각적으로 아름답게 장식한다. ‘물’이 가지고 있는 속성 - 고민과 걱정들을 잠식할 수 있으며, 막연한 쓸쓸함과 두려움도 느껴지지만, 역설적으로 이로부터 새로 시작할 수도 있다는 미래에 약속되지 않은 무언의 희망 - 을 느끼게 한다. 영화의 스토리, 시각적 연출, 그리고 배경음악 삼박자의 합이 정말 일품이다. &lt;/p&gt;
 
@@ -47,10 +170,8 @@
 
 &lt;hr /&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;“The world is full of sounds. We just don’t usually hear them as music.”&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Ryuichi Sakamoto&lt;/li&gt;
-  &lt;/ul&gt;
+  &lt;p&gt;“The world is full of sounds. We just don’t usually hear them as music.”&lt;br /&gt;
+— Ryuichi Sakamoto&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;음악에는 국경이 없다지만, 보편적인 감정 위에 때로는 디테일하게 어떤걸 건드리는 특별한 음악들이 있다. 한국, 일본, 중국 작곡가가 만든 음악을 들으면 그런 것이 종종 느껴진다. 역사적, 정치적으로는 서로를 미워해도 감성적인 면에서는 이 동아시아 3국만의 공통적인게 있나보다. 그래서 좀 더 익숙하고 편안하고 섬세하게 들리는 것일지도 모르겠다.&lt;/p&gt;

@@ -41,33 +41,25 @@
 </head>
 <body>      
     <!-- SCM Music Player https://www.scmplayer.net -->
-  <script type="text/javascript" src="https://www.scmplayer.net/script.js"
-  data-config="{'skin':'skins/tunes/skin.css','volume':50,'autoplay':true,'shuffle':true,'repeat':1,'placement':'top','showplaylist':true,'playlist':[
-{'title':'Ryuichi Sakamoto - Bibo No Aozora','url':'https://youtu.be/OQo4EosAhvA'},
-{'title':'Ryuichi Sakamoto - Merry Christmas Mr. Lawrence','url':'https://youtu.be/z9tECKZ60zk'},
-{'title':'Nujabes - reflection eternal','url':'https://youtu.be/2wK27xW4OFI'},
-{'title':'Lucid Fall - 사람들은 즐겁다','url':'https://youtu.be/inhSuxIkisw'},
-{'title':'이영훈 - 일종의 고백','url':'https://youtu.be/8QSshvsJzAc'},
-{'title':'조원선, 이상순 - I want to meet me','url':'https://youtu.be/ju3N90QJZ3M'},
-{'title':'Jaejoo Boys - Farewell','url':'https://youtu.be/-N4edt89KWU'},
-{'title':'015B - 어디선가 나의 노랠 듣고 있을 너에게','url':'https://youtu.be/IE6F0zOpl-0'},
-{'title':'015B - H에게','url':'https://youtu.be/HfcSQwaQlLc'},
-{'title':'Maximilian Hecker - Anaesthesia','url':'https://youtu.be/HgVUKTVH4bc'},
-{'title':'Maximilian Hecker - Help Me','url':'https://youtu.be/lXU-d8zC9xs'},
-{'title':'Kings Of Convenience - Cayman Islands','url':'https://youtu.be/c-ppARtcQfo'},
-{'title':'tobias jesso jr. - just a dream','url':'https://youtu.be/S8rEY2Gt8SI'},
-{'title':'tobias jesso jr. - true love','url':'https://youtu.be/baVveuLnoA4'},
-{'title':'짙은 - 곁에','url':'https://youtu.be/-rI1Gj0-M3g'},
-{'title':'짙은 - 고래','url':'https://youtu.be/6y07019pYxk'},
-{'title':'김동률 - 잔향','url':'https://youtu.be/H_2CLQVdEus'},
-{'title':'김동률 - 겨울잠','url':'https://youtu.be/D2nJDpOv1sw'},
-{'title':'김동률 - 그림자','url':'https://youtu.be/_PXMH83I5gU'},
-{'title':'Damien Rice - 9 Crimes','url':'https://youtu.be/EDn7-xC2A8E'},
-{'title':'Men I Trust - Numb','url':'https://youtu.be/wCm17ul0ukc'},
-{'title':'Glen Hansard - Bird of Sorrow,'url':'https://youtu.be/w3bqV3aHky8'},
-{'title':'방백 - 다짐,'url':'https://youtu.be/pQ1C3xvA09Y'},
-{'title':'조정치 - 다시 만나라,'url':'https://youtu.be/Lh1U2XmoxlA'},
-{'title':'조정치 - 잘 지내,'url':'https://youtu.be/j4y39Cqh-Ns'},]}" ></script>
+  <script id="player-config" type="text/json" src="/bgm-data-config.json"></script>
+<script type="text/javascript">
+  window.addEventListener('DOMContentLoaded', function() {
+    var scriptTag = document.getElementById('player-config');
+    var configFile = scriptTag.getAttribute('src');
+
+    fetch(configFile)
+      .then(response => response.json())
+      .then(config => {
+        var script = document.createElement('script');
+        script.setAttribute('type', 'text/javascript');
+        script.setAttribute('src', 'https://www.scmplayer.net/script.js');
+        script.setAttribute('data-config', JSON.stringify(config));
+        document.body.appendChild(script);
+      })
+      .catch(error => console.error('Error loading player config:', error));
+  });
+</script>
+
   <!-- SCM Music Player script end -->
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KS4BZPWB"
@@ -127,11 +119,61 @@
 
 
 <div class="site-description-real fadeInDown delay_05s">
-  <p>머릿속 정리정돈을 위해 만든 공간입니다.<br>가끔 생각나면 놀러오세요.<br><br><a href="https://taekwon.rsvp/몸과-마음의-병" target="_blank"><u>연락 안되어 미안합니다.</u></a><br>언젠간 만나요.<br><br>태권</p>
+  <p>머릿속 정리정돈을 위해 만든 공간입니다.<br>가끔 생각나면 놀러오세요.<br><a target="_self" href="https://taekwon.rsvp/몸과-마음의-병" target="_self"><u>연락 안되어 미안합니다.</u></a> 언젠간 만나요.<br><br>태권 <br><br><a target="_self" href="https://taekwon.rsvp/Background-Music-Not-Working" target="_self"><u>📣 BGM 배경음악이 나오지 않는다면 🎧</u></a></p>
 </div><!-- .site-description-real -->
 
       <main class="main-content fadeInDown delay_075s">
 
+  
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="2024-04-18">April 18, 2024</time>
+      <h2 class="post-title"><a href="/Background-Music-Not-Working" rel="bookmark">📣: BGM 배경음악이 들리지 않는다면 슬플 것입니다 🫠🎧</a></h2>
+      <div class="post-meta">
+        <!-- By <span class="post-author">Tae Kwon Rhee</span> --><!-- <span
+          class="post-tags"> in
+          <a href="/tags/#___NOTICE___" rel="tag">___NOTICE___</a></span> -->
+      </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <a href="/Background-Music-Not-Working"><img src="/images/1992-03-14/bgmbar.png"
+            alt="📣: BGM 배경음악이 들리지 않는다면 슬플 것입니다 🫠🎧"></a>
+      </figure><!-- .post-thumbnail -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      
+      <p>여기 내 블로그 BGM 배경음악이 나오지 않는다는 슬프지만 고마운 피드백을 받았다. 내가 아무리 성심 성의를 다해 내 취향을 선곡하더라도 들리지 않는다면 아무 소용이 없다. 아무튼 블로그 BGM을 작동시키는 방법을 소개하겠다. 3분카레 보다 간단하니 따라해보고, 제가 큐레이팅한 아름다운 음악들을 즐기시길 바란다.
+      <p class="read-more"><a href="/Background-Music-Not-Working" class="read-more-link">Continue reading &rarr;</a>
+      </p>
+      
+    </div><!-- .post-content -->
+  </article><!-- .post -->
+  
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="2024-03-31">March 31, 2024</time>
+      <h2 class="post-title"><a href="/Tsch%C3%BCs!-Just-Music" rel="bookmark">Tschüs! Just Music</a></h2>
+      <div class="post-meta">
+        <!-- By <span class="post-author">Tae Kwon Rhee</span> --><!-- <span
+          class="post-tags"> in
+          <a href="/tags/#thoughts" rel="tag">thoughts</a></span> -->
+      </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <a href="/Tsch%C3%BCs!-Just-Music"><img src="/images/2024-03-31/Justmusic1.jpeg"
+            alt="Tschüs! Just Music"></a>
+      </figure><!-- .post-thumbnail -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      
+      <p>2024년 3월 16일 문을 닫았다. 영영 닫았다. 
+      <p class="read-more"><a href="/Tsch%C3%BCs!-Just-Music" class="read-more-link">Continue reading &rarr;</a>
+      </p>
+      
+    </div><!-- .post-content -->
+  </article><!-- .post -->
   
   <article class="post">
     <header class="post-header">
@@ -151,7 +193,7 @@
     </header><!-- .post-header -->
     <div class="post-content">
       
-      <p>2023년 3월 28일은 음악가 사카모토 류이치의 1주기였다. 멋드러진 뿔테와 백발을 가진 그는 피아노를 기반으로 수많은 음악을 남겼다. 바흐와 드뷔시의 결이 있지만, 동시에 영화음악 / 재즈 / 뉴에이지 / 힙합 / 민속음악 / 실험음악 등 다양한 장르를 아울렀다. 그 중 영화음악으로 쓰인 그의 곡들을 나는 가장 좋아한다. 
+      <p>2024년 3월 28일 어제는 음악가 사카모토 류이치의 1주기였다. 멋드러진 뿔테와 백발을 가진 그는 피아노를 기반으로 수많은 음악을 남겼다. 바흐와 드뷔시의 결이 있지만, 동시에 영화음악 / 재즈 / 뉴에이지 / 힙합 / 민속음악 / 실험음악 등 다양한 장르를 아울렀다. 그 중 영화음악으로 쓰인 그의 곡들을 나는 가장 좋아한다. 
       <p class="read-more"><a href="/Ryuichi-Sakamoto" class="read-more-link">Continue reading &rarr;</a>
       </p>
       
@@ -207,56 +249,6 @@
       
       <p>베를린에서 대중교통에 올라 할 수 있는 재밌는 일들 중 하나는 사람구경이다. 대낮부터 인사불성인 취객, 우는 아기를 달래는 부모, 수다떠는 잼민이들 등 다양한 인간군상들이 있다. 
       <p class="read-more"><a href="/%EC%88%8F%ED%8F%BC-%EC%84%B8%EC%83%81%EC%97%90%EC%84%9C-%EA%B8%B8%EA%B2%8C-%ED%98%B8%ED%9D%A1%ED%95%98%EA%B8%B0" class="read-more-link">Continue reading &rarr;</a>
-      </p>
-      
-    </div><!-- .post-content -->
-  </article><!-- .post -->
-  
-  <article class="post">
-    <header class="post-header">
-      <time class="post-date" datetime="2024-02-18">February 18, 2024</time>
-      <h2 class="post-title"><a href="/%ED%95%9C%EA%B5%AD%EB%B3%B4%EB%8B%A4-%EB%B9%A0%EB%A5%B8-%ED%8C%8C%EB%AC%98(Exhuma)-Pre-final-%ED%9B%84%EA%B8%B0" rel="bookmark">한국보다 빠른 《파묘(Exhuma)》 Pre-final 후기</a></h2>
-      <div class="post-meta">
-        <!-- By <span class="post-author">Tae Kwon Rhee</span> --><!-- <span
-          class="post-tags"> in
-          <a href="/tags/#film" rel="tag">film</a></span> -->
-      </div><!-- .post-meta -->
-      
-      <figure class="post-thumbnail image-card width-wide">
-        <a href="/%ED%95%9C%EA%B5%AD%EB%B3%B4%EB%8B%A4-%EB%B9%A0%EB%A5%B8-%ED%8C%8C%EB%AC%98(Exhuma)-Pre-final-%ED%9B%84%EA%B8%B0"><img src="/images/2024-02-18/exhuma.jpg"
-            alt="한국보다 빠른 《파묘(Exhuma)》 Pre-final 후기"></a>
-      </figure><!-- .post-thumbnail -->
-      
-    </header><!-- .post-header -->
-    <div class="post-content">
-      
-      <p>베를린국제영화제. 올해로 74회를 맞았다. 매년 수 편의 한국 영화들이 초청을 받곤 한다. 마음 같아서는 한국 영화를 떠나, 출품된 모든 작품들을 보고 싶다. 모든 경쟁부문작들을 보고 ‘나만의 수상’ 같은 것도 해보고 싶다. 하지만 나에겐 여전히 시간과 돈의 제약이 있고, 전세계에서 오는 관객들 때문에 표를 구하기도 녹록치 않은 것도 사실이다. 하지만 한국인은 누구인가? 수강신청과 티켓팅의 민족 아닌가? 노력과 행운이 뒤따랐다. 《검은 사제들》, 《사바하》로 유명한 장재현 감독의 신작, 《파묘(Exhuma)》 이다.
-      <p class="read-more"><a href="/%ED%95%9C%EA%B5%AD%EB%B3%B4%EB%8B%A4-%EB%B9%A0%EB%A5%B8-%ED%8C%8C%EB%AC%98(Exhuma)-Pre-final-%ED%9B%84%EA%B8%B0" class="read-more-link">Continue reading &rarr;</a>
-      </p>
-      
-    </div><!-- .post-content -->
-  </article><!-- .post -->
-  
-  <article class="post">
-    <header class="post-header">
-      <time class="post-date" datetime="2024-01-22">January 22, 2024</time>
-      <h2 class="post-title"><a href="/%EB%AA%B8%EA%B3%BC-%EB%A7%88%EC%9D%8C%EC%9D%98-%EB%B3%91" rel="bookmark">몸과 마음의 병</a></h2>
-      <div class="post-meta">
-        <!-- By <span class="post-author">Tae Kwon Rhee</span> --><!-- <span
-          class="post-tags"> in
-          <a href="/tags/#thoughts" rel="tag">thoughts</a></span> -->
-      </div><!-- .post-meta -->
-      
-      <figure class="post-thumbnail image-card width-wide">
-        <a href="/%EB%AA%B8%EA%B3%BC-%EB%A7%88%EC%9D%8C%EC%9D%98-%EB%B3%91"><img src="/images/operation.jpg"
-            alt="몸과 마음의 병"></a>
-      </figure><!-- .post-thumbnail -->
-      
-    </header><!-- .post-header -->
-    <div class="post-content">
-      
-      <p>돌이켜보면 그것은 모든 것의 시작이었다. 나의 일과 인간관계 모두를 쉬어가는 결정을 한 것은 결코 쉽지 않았지만 별 다른 선택지가 없었다고 자위하며 아직까지도 굳게 믿고있다. 오랜만에 먼저 나에게 안부를 물어오는 사람들에게는 정말 고맙고 또 미안한 일이지만, 
-      <p class="read-more"><a href="/%EB%AA%B8%EA%B3%BC-%EB%A7%88%EC%9D%8C%EC%9D%98-%EB%B3%91" class="read-more-link">Continue reading &rarr;</a>
       </p>
       
     </div><!-- .post-content -->

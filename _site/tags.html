@@ -42,33 +42,25 @@
 </head>
 <body>      
     <!-- SCM Music Player https://www.scmplayer.net -->
-  <script type="text/javascript" src="https://www.scmplayer.net/script.js"
-  data-config="{'skin':'skins/tunes/skin.css','volume':50,'autoplay':true,'shuffle':true,'repeat':1,'placement':'top','showplaylist':true,'playlist':[
-{'title':'Ryuichi Sakamoto - Bibo No Aozora','url':'https://youtu.be/OQo4EosAhvA'},
-{'title':'Ryuichi Sakamoto - Merry Christmas Mr. Lawrence','url':'https://youtu.be/z9tECKZ60zk'},
-{'title':'Nujabes - reflection eternal','url':'https://youtu.be/2wK27xW4OFI'},
-{'title':'Lucid Fall - 사람들은 즐겁다','url':'https://youtu.be/inhSuxIkisw'},
-{'title':'이영훈 - 일종의 고백','url':'https://youtu.be/8QSshvsJzAc'},
-{'title':'조원선, 이상순 - I want to meet me','url':'https://youtu.be/ju3N90QJZ3M'},
-{'title':'Jaejoo Boys - Farewell','url':'https://youtu.be/-N4edt89KWU'},
-{'title':'015B - 어디선가 나의 노랠 듣고 있을 너에게','url':'https://youtu.be/IE6F0zOpl-0'},
-{'title':'015B - H에게','url':'https://youtu.be/HfcSQwaQlLc'},
-{'title':'Maximilian Hecker - Anaesthesia','url':'https://youtu.be/HgVUKTVH4bc'},
-{'title':'Maximilian Hecker - Help Me','url':'https://youtu.be/lXU-d8zC9xs'},
-{'title':'Kings Of Convenience - Cayman Islands','url':'https://youtu.be/c-ppARtcQfo'},
-{'title':'tobias jesso jr. - just a dream','url':'https://youtu.be/S8rEY2Gt8SI'},
-{'title':'tobias jesso jr. - true love','url':'https://youtu.be/baVveuLnoA4'},
-{'title':'짙은 - 곁에','url':'https://youtu.be/-rI1Gj0-M3g'},
-{'title':'짙은 - 고래','url':'https://youtu.be/6y07019pYxk'},
-{'title':'김동률 - 잔향','url':'https://youtu.be/H_2CLQVdEus'},
-{'title':'김동률 - 겨울잠','url':'https://youtu.be/D2nJDpOv1sw'},
-{'title':'김동률 - 그림자','url':'https://youtu.be/_PXMH83I5gU'},
-{'title':'Damien Rice - 9 Crimes','url':'https://youtu.be/EDn7-xC2A8E'},
-{'title':'Men I Trust - Numb','url':'https://youtu.be/wCm17ul0ukc'},
-{'title':'Glen Hansard - Bird of Sorrow,'url':'https://youtu.be/w3bqV3aHky8'},
-{'title':'방백 - 다짐,'url':'https://youtu.be/pQ1C3xvA09Y'},
-{'title':'조정치 - 다시 만나라,'url':'https://youtu.be/Lh1U2XmoxlA'},
-{'title':'조정치 - 잘 지내,'url':'https://youtu.be/j4y39Cqh-Ns'},]}" ></script>
+  <script id="player-config" type="text/json" src="/bgm-data-config.json"></script>
+<script type="text/javascript">
+  window.addEventListener('DOMContentLoaded', function() {
+    var scriptTag = document.getElementById('player-config');
+    var configFile = scriptTag.getAttribute('src');
+
+    fetch(configFile)
+      .then(response => response.json())
+      .then(config => {
+        var script = document.createElement('script');
+        script.setAttribute('type', 'text/javascript');
+        script.setAttribute('src', 'https://www.scmplayer.net/script.js');
+        script.setAttribute('data-config', JSON.stringify(config));
+        document.body.appendChild(script);
+      })
+      .catch(error => console.error('Error loading player config:', error));
+  });
+</script>
+
   <!-- SCM Music Player script end -->
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KS4BZPWB"
@@ -137,6 +129,8 @@
         
         
         
+        <a href="#___NOTICE___">___NOTICE___</a>
+        
         <a href="#artwork">artwork</a>
         
         <a href="#film">film</a>
@@ -146,6 +140,14 @@
         <a href="#thoughts">thoughts</a>
         
       </div><!-- .archive-tag-list -->
+      
+        <h2 id="___NOTICE___">___NOTICE___</h2>
+        <ul class="archive-post-list">
+        
+          <li><a href="/Background-Music-Not-Working">📣: BGM 배경음악이 들리지 않는다면 슬플 것입니다 🫠🎧</a> <span class="archive-meta"> — <time class="archive-date" datetime="2024-04-18">April 18, 2024</time></span></li>
+        
+        </ul><!-- .archive-post-list -->
+        <p><a href="#top" class="archive-top-link">Return to top &#8593;</a></p>
       
         <h2 id="artwork">artwork</h2>
         <ul class="archive-post-list">
@@ -173,6 +175,8 @@
       
         <h2 id="thoughts">thoughts</h2>
         <ul class="archive-post-list">
+        
+          <li><a href="/Tsch%C3%BCs!-Just-Music">Tschüs! Just Music</a> <span class="archive-meta"> — <time class="archive-date" datetime="2024-03-31">March 31, 2024</time></span></li>
         
           <li><a href="/%EC%88%8F%ED%8F%BC-%EC%84%B8%EC%83%81%EC%97%90%EC%84%9C-%EA%B8%B8%EA%B2%8C-%ED%98%B8%ED%9D%A1%ED%95%98%EA%B8%B0">숏폼 세상에서 길게 호흡하기</a> <span class="archive-meta"> — <time class="archive-date" datetime="2024-03-04">March 4, 2024</time></span></li>
         

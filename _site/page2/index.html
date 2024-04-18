@@ -41,33 +41,25 @@
 </head>
 <body>      
     <!-- SCM Music Player https://www.scmplayer.net -->
-  <script type="text/javascript" src="https://www.scmplayer.net/script.js"
-  data-config="{'skin':'skins/tunes/skin.css','volume':50,'autoplay':true,'shuffle':true,'repeat':1,'placement':'top','showplaylist':true,'playlist':[
-{'title':'Ryuichi Sakamoto - Bibo No Aozora','url':'https://youtu.be/OQo4EosAhvA'},
-{'title':'Ryuichi Sakamoto - Merry Christmas Mr. Lawrence','url':'https://youtu.be/z9tECKZ60zk'},
-{'title':'Nujabes - reflection eternal','url':'https://youtu.be/2wK27xW4OFI'},
-{'title':'Lucid Fall - 사람들은 즐겁다','url':'https://youtu.be/inhSuxIkisw'},
-{'title':'이영훈 - 일종의 고백','url':'https://youtu.be/8QSshvsJzAc'},
-{'title':'조원선, 이상순 - I want to meet me','url':'https://youtu.be/ju3N90QJZ3M'},
-{'title':'Jaejoo Boys - Farewell','url':'https://youtu.be/-N4edt89KWU'},
-{'title':'015B - 어디선가 나의 노랠 듣고 있을 너에게','url':'https://youtu.be/IE6F0zOpl-0'},
-{'title':'015B - H에게','url':'https://youtu.be/HfcSQwaQlLc'},
-{'title':'Maximilian Hecker - Anaesthesia','url':'https://youtu.be/HgVUKTVH4bc'},
-{'title':'Maximilian Hecker - Help Me','url':'https://youtu.be/lXU-d8zC9xs'},
-{'title':'Kings Of Convenience - Cayman Islands','url':'https://youtu.be/c-ppARtcQfo'},
-{'title':'tobias jesso jr. - just a dream','url':'https://youtu.be/S8rEY2Gt8SI'},
-{'title':'tobias jesso jr. - true love','url':'https://youtu.be/baVveuLnoA4'},
-{'title':'짙은 - 곁에','url':'https://youtu.be/-rI1Gj0-M3g'},
-{'title':'짙은 - 고래','url':'https://youtu.be/6y07019pYxk'},
-{'title':'김동률 - 잔향','url':'https://youtu.be/H_2CLQVdEus'},
-{'title':'김동률 - 겨울잠','url':'https://youtu.be/D2nJDpOv1sw'},
-{'title':'김동률 - 그림자','url':'https://youtu.be/_PXMH83I5gU'},
-{'title':'Damien Rice - 9 Crimes','url':'https://youtu.be/EDn7-xC2A8E'},
-{'title':'Men I Trust - Numb','url':'https://youtu.be/wCm17ul0ukc'},
-{'title':'Glen Hansard - Bird of Sorrow,'url':'https://youtu.be/w3bqV3aHky8'},
-{'title':'방백 - 다짐,'url':'https://youtu.be/pQ1C3xvA09Y'},
-{'title':'조정치 - 다시 만나라,'url':'https://youtu.be/Lh1U2XmoxlA'},
-{'title':'조정치 - 잘 지내,'url':'https://youtu.be/j4y39Cqh-Ns'},]}" ></script>
+  <script id="player-config" type="text/json" src="/bgm-data-config.json"></script>
+<script type="text/javascript">
+  window.addEventListener('DOMContentLoaded', function() {
+    var scriptTag = document.getElementById('player-config');
+    var configFile = scriptTag.getAttribute('src');
+
+    fetch(configFile)
+      .then(response => response.json())
+      .then(config => {
+        var script = document.createElement('script');
+        script.setAttribute('type', 'text/javascript');
+        script.setAttribute('src', 'https://www.scmplayer.net/script.js');
+        script.setAttribute('data-config', JSON.stringify(config));
+        document.body.appendChild(script);
+      })
+      .catch(error => console.error('Error loading player config:', error));
+  });
+</script>
+
   <!-- SCM Music Player script end -->
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KS4BZPWB"
@@ -128,6 +120,56 @@
 
       <main class="main-content fadeInDown delay_075s">
 
+  
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="2024-02-18">February 18, 2024</time>
+      <h2 class="post-title"><a href="/%ED%95%9C%EA%B5%AD%EB%B3%B4%EB%8B%A4-%EB%B9%A0%EB%A5%B8-%ED%8C%8C%EB%AC%98(Exhuma)-Pre-final-%ED%9B%84%EA%B8%B0" rel="bookmark">한국보다 빠른 《파묘(Exhuma)》 Pre-final 후기</a></h2>
+      <div class="post-meta">
+        <!-- By <span class="post-author">Tae Kwon Rhee</span> --><!-- <span
+          class="post-tags"> in
+          <a href="/tags/#film" rel="tag">film</a></span> -->
+      </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <a href="/%ED%95%9C%EA%B5%AD%EB%B3%B4%EB%8B%A4-%EB%B9%A0%EB%A5%B8-%ED%8C%8C%EB%AC%98(Exhuma)-Pre-final-%ED%9B%84%EA%B8%B0"><img src="/images/2024-02-18/exhuma.jpg"
+            alt="한국보다 빠른 《파묘(Exhuma)》 Pre-final 후기"></a>
+      </figure><!-- .post-thumbnail -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      
+      <p>베를린국제영화제. 올해로 74회를 맞았다. 매년 수 편의 한국 영화들이 초청을 받곤 한다. 마음 같아서는 한국 영화를 떠나, 출품된 모든 작품들을 보고 싶다. 모든 경쟁부문작들을 보고 ‘나만의 수상’ 같은 것도 해보고 싶다. 하지만 나에겐 여전히 시간과 돈의 제약이 있고, 전세계에서 오는 관객들 때문에 표를 구하기도 녹록치 않은 것도 사실이다. 하지만 한국인은 누구인가? 수강신청과 티켓팅의 민족 아닌가? 노력과 행운이 뒤따랐다. 《검은 사제들》, 《사바하》로 유명한 장재현 감독의 신작, 《파묘(Exhuma)》 이다.
+      <p class="read-more"><a href="/%ED%95%9C%EA%B5%AD%EB%B3%B4%EB%8B%A4-%EB%B9%A0%EB%A5%B8-%ED%8C%8C%EB%AC%98(Exhuma)-Pre-final-%ED%9B%84%EA%B8%B0" class="read-more-link">Continue reading &rarr;</a>
+      </p>
+      
+    </div><!-- .post-content -->
+  </article><!-- .post -->
+  
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="2024-01-22">January 22, 2024</time>
+      <h2 class="post-title"><a href="/%EB%AA%B8%EA%B3%BC-%EB%A7%88%EC%9D%8C%EC%9D%98-%EB%B3%91" rel="bookmark">몸과 마음의 병</a></h2>
+      <div class="post-meta">
+        <!-- By <span class="post-author">Tae Kwon Rhee</span> --><!-- <span
+          class="post-tags"> in
+          <a href="/tags/#thoughts" rel="tag">thoughts</a></span> -->
+      </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <a href="/%EB%AA%B8%EA%B3%BC-%EB%A7%88%EC%9D%8C%EC%9D%98-%EB%B3%91"><img src="/images/operation.jpg"
+            alt="몸과 마음의 병"></a>
+      </figure><!-- .post-thumbnail -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      
+      <p>돌이켜보면 그것은 모든 것의 시작이었다. 나의 일과 인간관계 모두를 쉬어가는 결정을 한 것은 결코 쉽지 않았지만 별 다른 선택지가 없었다고 자위하며 아직까지도 굳게 믿고있다. 오랜만에 먼저 나에게 안부를 물어오는 사람들에게는 정말 고맙고 또 미안한 일이지만, 
+      <p class="read-more"><a href="/%EB%AA%B8%EA%B3%BC-%EB%A7%88%EC%9D%8C%EC%9D%98-%EB%B3%91" class="read-more-link">Continue reading &rarr;</a>
+      </p>
+      
+    </div><!-- .post-content -->
+  </article><!-- .post -->
   
   <article class="post">
     <header class="post-header">
