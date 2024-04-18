@@ -5,7 +5,7 @@
 	"shuffle":true,
 	"repeat":1,
 	"placement":"top",
-	"showplaylist":true,
+	"showplaylist":false,
 	"playlist":[
 		{"title":"Parannoul - We Shine at Night","url":"https://youtu.be/nwo48c6aK6I"},
 		{"title":"Parannoul - Beautiful World","url":"https://youtu.be/gb9Qqt75rzg"},
