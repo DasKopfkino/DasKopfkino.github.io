@@ -5,9 +5,13 @@
 		config = current.getAttribute('data-config'),
 		head = document.getElementsByTagName("head")[0],
 		dest = location.href.replace(/scmplayer\=true/g, 'scmplayer=false'),
-		destHost = dest.substr(0,dest.indexOf('/',10)),
+		//destHost = dest.substr(0,dest.indexOf('/',10)),
+		lastSlashIndex = location.href.lastIndexOf('/');
+		destHost = location.href.substr(0, lastSlashIndex);
 		scm = current.getAttribute('src').replace('scmplayer.co','scmplayer.net').replace('https:',location.protocol).replace('http:',location.protocol).replace(/script\.js.*/g,'scm.html')+'#'+dest,
-		scmHost = scm.substr(0,scm.indexOf('/',10)),
+		//scmHost = scm.substr(0,scm.indexOf('/',10)),
+		lastSlashIndex2 = scm.lastIndexOf('/');
+		scmHost = scm.substr(0, lastSlashIndex2);
 		isOutside = !hasFrame || location.href.indexOf("scmplayer=true")>0,
 		postMessage = function(msg){
 			return window.top.document.getElementById('scmframe')

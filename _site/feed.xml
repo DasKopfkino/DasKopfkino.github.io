@@ -5,8 +5,8 @@
         <description></description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 22 Apr 2024 02:44:19 +0200</pubDate>
-        <lastBuildDate>Mon, 22 Apr 2024 02:44:19 +0200</lastBuildDate>
+        <pubDate>Tue, 23 Apr 2024 22:19:30 +0200</pubDate>
+        <lastBuildDate>Tue, 23 Apr 2024 22:19:30 +0200</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
         
             <item>
@@ -79,90 +79,6 @@
                 <guid isPermaLink="true">http://localhost:4000/%EB%B9%9B%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EC%98%AC%EB%B9%BC%EB%AF%B8</guid>
                 
                 <category>thoughts</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>📣: BGM 배경음악이 들리지 않는다면 슬플 것입니다 🫠🎧</title>
-                <description>&lt;p&gt;여기 내 블로그 BGM 배경음악이 나오지 않는다는 슬프지만 고마운 피드백을 받았다. 내가 아무리 성심 성의를 다해 내 취향을 선곡하더라도 들리지 않는다면 아무 소용이 없다. 아무튼 블로그 BGM을 작동시키는 방법을 소개하겠다. 3분카레 보다 간단하니 따라해보고, 제가 큐레이팅한 아름다운 음악들을 즐기시길 바란다.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;요약하자면, 데스크탑 브라우저의 &lt;code class=&quot;highlighter-rouge&quot;&gt;Javascript&lt;/code&gt; 와 &lt;code class=&quot;highlighter-rouge&quot;&gt;Sound autoplay&lt;/code&gt; 설정을 허용하면 된다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;데스크탑 / 랩 / 태블릿: 
-&lt;br /&gt;PC, Mac, iPadOS, Android 모두 작동 OK.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;모바일 (iPhone / Android..): 
-&lt;br /&gt;안타깝게도 아이폰이나 안드로이드 모바일에서는 기본으로 작동하지 않는다. 하지만 아이폰 Safari 같은 경우 브라우저 세팅에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;데스크탑모드로 보기&lt;/code&gt;를 선택하고 아래 설정을 진행하면 된다. 다만 화면과 해상도가 작으니 추천하지 않는다. 컴퓨터로 방문해주십쇼..&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;이제, 아래는 가장 범용적인 세 가지 데스크탑 브라우저에서 설정하는 자세한 방법이다. 설명은 MacOS 기준이며, Windows / Linux / 기타 태블릿PC 에서 설정하는 것 또한 크게 다르지 않을 것이니 설정 탭 구석구석 확인 바랍니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#safari&quot;&gt;Safari&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#chrome&quot;&gt;Chrome&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#edge&quot;&gt;Edge&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;이래도 작동이 안된다면 제게 &lt;a href=&quot;https://taekwon.rsvp/contact.html&quot;&gt;연락주세요&lt;/a&gt;..&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;safari&quot;&gt;Safari&lt;/h4&gt;
-&lt;/blockquote&gt;
-
-&lt;h6 id=&quot;1-setting-연다&quot;&gt;1. Setting 연다&lt;/h6&gt;
-&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/safari1.png&quot; alt=&quot;사파리1&quot; /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;2-security-탭에서-javascript를-허용한다&quot;&gt;2. Security 탭에서 Javascript를 허용한다.&lt;/h6&gt;
-&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/safari2.png&quot; alt=&quot;사파리2&quot; /&gt;&lt;/p&gt;
-&lt;h6 id=&quot;3-website-탭의-auto-play에서-모든-auto-play를-허용한다&quot;&gt;3. Website 탭의 Auto-play에서 모든 Auto-play를 허용한다.&lt;/h6&gt;
-&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/safari3.png&quot; alt=&quot;사파리3&quot; /&gt;&lt;/p&gt;
-&lt;h6 id=&quot;4-새로고침-한-후-상단-바의-아름다운-음악을-즐긴다&quot;&gt;4. 새로고침 한 후, 상단 바의 아름다운 음악을 즐긴다.&lt;/h6&gt;
-&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/bgmbar.png&quot; alt=&quot;bgmbar&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;chrome&quot;&gt;Chrome&lt;/h4&gt;
-&lt;/blockquote&gt;
-
-&lt;h6 id=&quot;1-주소창-옆-설정을-클릭한-후-site-settings에-들어간다&quot;&gt;1. 주소창 옆 설정을 클릭한 후, Site settings에 들어간다.&lt;/h6&gt;
-&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/chrome1.png&quot; alt=&quot;크롬1&quot; /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;2-javascript와-sound-모두-allow허용-한다&quot;&gt;2. Javascript와 Sound 모두 Allow(허용) 한다.&lt;/h6&gt;
-&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/chrome2.png&quot; alt=&quot;크롬2&quot; /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;3-새로고침-한-후-상단-바의-아름다운-음악을-즐긴다&quot;&gt;3. 새로고침 한 후, 상단 바의 아름다운 음악을 즐긴다.&lt;/h6&gt;
-&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/bgmbar.png&quot; alt=&quot;bgmbar&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;edge&quot;&gt;Edge&lt;/h4&gt;
-&lt;/blockquote&gt;
-
-&lt;h6 id=&quot;1--settings-클릭&quot;&gt;1.  Settings 클릭&lt;/h6&gt;
-&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/edge1.png&quot; alt=&quot;edge1&quot; /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;2-cookies-and-site-permission에-들어간-후-media-autoplay를-선택한다&quot;&gt;2. Cookies and Site Permission에 들어간 후, Media autoplay를 선택한다.&lt;/h6&gt;
-&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/edge2.png&quot; alt=&quot;edge2&quot; /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;3-allow로-바꾼다&quot;&gt;3. Allow로 바꾼다.&lt;/h6&gt;
-&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/edge3.png&quot; alt=&quot;edge3&quot; /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;4-새로고침-한-후-상단-바의-아름다운-음악을-즐긴다-1&quot;&gt;4. 새로고침 한 후, 상단 바의 아름다운 음악을 즐긴다.&lt;/h6&gt;
-&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/bgmbar.png&quot; alt=&quot;bgmbar&quot; /&gt;&lt;/p&gt;
-</description>
-                <pubDate>Thu, 18 Apr 2024 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/Background-Music-Not-Working</link>
-                <guid isPermaLink="true">http://localhost:4000/Background-Music-Not-Working</guid>
-                
-                <category>___NOTICE___</category>
                 
                 
             </item>
@@ -453,6 +369,90 @@
                 <guid isPermaLink="true">http://localhost:4000/Kopfkino%EC%97%90%EC%84%9C-%ED%8C%9D%EC%BD%98%EC%9D%84</guid>
                 
                 <category>thoughts</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>📣: BGM 배경음악이 들리지 않는다면 슬플 것입니다 🫠🎧</title>
+                <description>&lt;p&gt;여기 내 블로그 BGM 배경음악이 나오지 않는다는 슬프지만 고마운 피드백을 받았다. 내가 아무리 성심 성의를 다해 내 취향을 선곡하더라도 들리지 않는다면 아무 소용이 없다. 아무튼 블로그 BGM을 작동시키는 방법을 소개하겠다. 3분카레 보다 간단하니 따라해보고, 제가 큐레이팅한 아름다운 음악들을 즐기시길 바란다.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;요약하자면, 데스크탑 브라우저의 &lt;code class=&quot;highlighter-rouge&quot;&gt;Javascript&lt;/code&gt; 와 &lt;code class=&quot;highlighter-rouge&quot;&gt;Sound autoplay&lt;/code&gt; 설정을 허용하면 된다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;데스크탑 / 랩 / 태블릿: 
+&lt;br /&gt;PC, Mac, iPadOS, Android 모두 작동 OK.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;모바일 (iPhone / Android..): 
+&lt;br /&gt;안타깝게도 아이폰이나 안드로이드 모바일에서는 기본으로 작동하지 않는다. 하지만 아이폰 Safari 같은 경우 브라우저 세팅에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;데스크탑모드로 보기&lt;/code&gt;를 선택하고 아래 설정을 진행하면 된다. 다만 화면과 해상도가 작으니 추천하지 않는다. 컴퓨터로 방문해주십쇼..&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이제, 아래는 가장 범용적인 세 가지 데스크탑 브라우저에서 설정하는 자세한 방법이다. 설명은 MacOS 기준이며, Windows / Linux / 기타 태블릿PC 에서 설정하는 것 또한 크게 다르지 않을 것이니 설정 탭 구석구석 확인 바랍니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#safari&quot;&gt;Safari&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#chrome&quot;&gt;Chrome&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#edge&quot;&gt;Edge&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이래도 작동이 안된다면 제게 &lt;a href=&quot;https://taekwon.rsvp/contact.html&quot;&gt;연락주세요&lt;/a&gt;..&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;safari&quot;&gt;Safari&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;h6 id=&quot;1-setting-연다&quot;&gt;1. Setting 연다&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/safari1.png&quot; alt=&quot;사파리1&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;2-security-탭에서-javascript를-허용한다&quot;&gt;2. Security 탭에서 Javascript를 허용한다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/safari2.png&quot; alt=&quot;사파리2&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;3-website-탭의-auto-play에서-모든-auto-play를-허용한다&quot;&gt;3. Website 탭의 Auto-play에서 모든 Auto-play를 허용한다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/safari3.png&quot; alt=&quot;사파리3&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;4-새로고침-한-후-상단-바의-아름다운-음악을-즐긴다&quot;&gt;4. 새로고침 한 후, 상단 바의 아름다운 음악을 즐긴다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/bgmbar.png&quot; alt=&quot;bgmbar&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;chrome&quot;&gt;Chrome&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;h6 id=&quot;1-주소창-옆-설정을-클릭한-후-site-settings에-들어간다&quot;&gt;1. 주소창 옆 설정을 클릭한 후, Site settings에 들어간다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/chrome1.png&quot; alt=&quot;크롬1&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;2-javascript와-sound-모두-allow허용-한다&quot;&gt;2. Javascript와 Sound 모두 Allow(허용) 한다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/chrome2.png&quot; alt=&quot;크롬2&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;3-새로고침-한-후-상단-바의-아름다운-음악을-즐긴다&quot;&gt;3. 새로고침 한 후, 상단 바의 아름다운 음악을 즐긴다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/bgmbar.png&quot; alt=&quot;bgmbar&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;edge&quot;&gt;Edge&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;h6 id=&quot;1--settings-클릭&quot;&gt;1.  Settings 클릭&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/edge1.png&quot; alt=&quot;edge1&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;2-cookies-and-site-permission에-들어간-후-media-autoplay를-선택한다&quot;&gt;2. Cookies and Site Permission에 들어간 후, Media autoplay를 선택한다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/edge2.png&quot; alt=&quot;edge2&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;3-allow로-바꾼다&quot;&gt;3. Allow로 바꾼다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/edge3.png&quot; alt=&quot;edge3&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;4-새로고침-한-후-상단-바의-아름다운-음악을-즐긴다-1&quot;&gt;4. 새로고침 한 후, 상단 바의 아름다운 음악을 즐긴다.&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1992-03-14/bgmbar.png&quot; alt=&quot;bgmbar&quot; /&gt;&lt;/p&gt;
+</description>
+                <pubDate>Sat, 14 Mar 1992 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/Background-Music-Not-Working</link>
+                <guid isPermaLink="true">http://localhost:4000/Background-Music-Not-Working</guid>
+                
+                <category>___NOTICE___</category>
                 
                 
             </item>
