@@ -2,7 +2,7 @@
 layout: post
 title: "📣: BGM 배경음악이 들리지 않는다면 슬플 것입니다 🫠🎧"
 description: Background Music Not Working?
-date: 2024-04-18
+date: 1992-03-14
 feature_image: /images/1992-03-14/bgmbar.png
 tags:
   - ___NOTICE___
