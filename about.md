@@ -7,13 +7,10 @@ feature_image:
 <div style="max-width:100%; position:relative;">
 <div align="center" style="display: inline-block; width:40%; height:auto;">
 <p align="right" style="font-size:80%;">
-이태권.<br>
-베를린에<br>
-있습니다.<br>
-<br>
-<br>
-Rhee,Tae Kwon.<br>
-In Berlin.
+<br>이태권<br>
+Rhee, Tae Kwon<br><br><br>
+📍 Berlin, Germany
+<br>🗣️ | 🇰🇷   🇬🇧   🇩🇪
 </p>
 </div>
 <img align="left" src="images/pic1.JPG" style="position:absolute; max-width:40%; max-height:100%" hspace="10%" vspace="0%">
