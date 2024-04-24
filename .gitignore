@@ -3,3 +3,9 @@
 
 # All Obsidian caches
 .obsidian/
+
+# All build files
+_site/
+
+# DS_Store
+.DS_Store
