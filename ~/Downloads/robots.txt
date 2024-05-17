@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /
+
+# AdsBot crawlers do not respect * and must be named explicitly.
+User-agent: AdsBot-Google
+Disallow: /
+
+# Datasets that we recommend downloading with wget --recursive
+User-agent: Wget
+Allow: /~vgg/data/bobsl/
