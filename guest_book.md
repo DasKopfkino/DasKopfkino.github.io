@@ -3,7 +3,4 @@ layout: page
 title: Guest Book
 description: test
 ---
-{% include disqus.html %}
-
-
-
+{% include disqus_guest.html %}
