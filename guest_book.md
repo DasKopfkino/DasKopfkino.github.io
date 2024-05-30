@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Guest Book
-description: test
+title: Guestbook
+description: Guestbook
 ---
 {% include disqus_guest.html %}
