@@ -39,7 +39,9 @@ navigation:
     url: /survey.html
   - text: Contact
     url: /contact.html #mailto:taekwon.rhee@gmail.com
-
+  - text: Guestbook
+    url: /guest_book.html
+    
 # The shortname for your Disqus site to enable comments.
 disqus: opakes-Kopfkino
 
