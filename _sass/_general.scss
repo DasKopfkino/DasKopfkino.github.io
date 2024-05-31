@@ -408,3 +408,11 @@ video {
 		transform: rotate(-45deg);
 	}
 }
+
+/* Responsive-image */
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centering horizontally */
+}
