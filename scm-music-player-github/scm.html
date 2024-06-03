@@ -8,7 +8,7 @@
 <link rel="icon" type="image/png" href="icon.png" />
 <link rel="stylesheet" type="text/css" href="css/reset.css" />
 <style type="text/css">
-body{overflow:hidden; background:#fffeed; } /* EDIT BACKGROUND COLOR */
+body{overflow:hidden; background:transparent; } /* EDIT BACKGROUND COLOR */
 #contentW, #playlistW, #playerW{ position:absolute; overflow:hidden;}
 #contentW{z-index:10; top:0; bottom:0; left:0; right:0;}
 #playlistW{ z-index:1; right:0; top:0; bottom:0; width:0; }
@@ -47,7 +47,7 @@ body{overflow:hidden; background:#fffeed; } /* EDIT BACKGROUND COLOR */
 			SCMQueue.push(data);
 	});
 	url = url.replace(/(\%27|')/g, '%2527');
-	document.write('<iframe src="javascript:location.replace(\''+url+'\');" frameborder="0" id="content" allowtransparency="true" name="content"></iframe>');
+	document.write('<iframe src="javascript:location.replace(\''+url+'\');" frameborder="0" id="content" allowtransparency="true" style="background: #fffeed;" name="content"></iframe>');
 })();
 </script>
 </div>
