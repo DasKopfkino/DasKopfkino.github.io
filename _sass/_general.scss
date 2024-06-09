@@ -14,7 +14,8 @@ html {
   border: 25px solid _palette(accent);
   background-image: url(/images/paper2.jpg);
   background-size: cover;
- 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 
   @media only screen and (max-width: 600px) {
