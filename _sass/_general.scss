@@ -13,7 +13,7 @@ textarea {
 html {
   border: 25px solid _palette(accent);
   background-image: url(/images/paper3.jpg);
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
@@ -22,7 +22,7 @@ html {
     border-width: 15px;
     font-size: 100%;
     background-image: url(/images/paper3.jpg);
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
