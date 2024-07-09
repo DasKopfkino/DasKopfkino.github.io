@@ -7,6 +7,7 @@ feature_image: images/2024-07-09/sky.jpeg
 tags:
   - thoughts
 ---
+
 <!--more-->
 Leider ein kurzes Bleiben.
 
