@@ -3,7 +3,7 @@ layout: post
 title: Bridging Home
 description: "\bBridging Home"
 date: 2024-03-06
-feature_image: 
+feature_image: images/1992-03-06/Bridging Home 2.jpg
 tags:
   - artwork
 ---
