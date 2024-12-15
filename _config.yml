@@ -35,8 +35,8 @@ navigation:
     url: /about.html
   - text: Archive
     url: /archive.html
-  - text: Survey
-    url: /survey.html
+#  - text: Survey
+#    url: /survey.html
   - text: Contact
     url: /contact.html #mailto:taekwon.rhee@gmail.com
   - text: Guestbook
