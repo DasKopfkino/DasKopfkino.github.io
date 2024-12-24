@@ -10,8 +10,11 @@ _site/
 # DS_Store
 .DS_Store
 
-# python file
-.py
+# python files
+*.py
+
+# ipynb files
+*.ipynb
 
 # BGM list LEGACY
 bgm_legacy/
