@@ -43,7 +43,7 @@ navigation:
     url: /guest_book.html
     
 # The shortname for your Disqus site to enable comments.
-disqus: opakes-Kopfkino
+disqus: opakes-kopfkino
 
 # Colors
 accent_color: "#011a5b" #"#004078" #"#760c0c"
