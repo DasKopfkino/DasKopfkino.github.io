@@ -1,0 +1,24 @@
+{
+	"skin":"https://static.tumblr.com/d41lcii/7Ysmre077/simplegray.css",
+	"volume":50,
+	"autoplay":true,
+	"shuffle":true,
+	"repeat":1,
+	"placement":"top",
+	"showplaylist":false,
+	"playlist":[
+		{"title":"Max Richter - Richter: On The Nature Of Daylight","url":"https://youtu.be/InyT9Gyoz_o"},
+		{"title":"Nuovo cinema paradiso: Nostalgia by Emilio Mottola · Gennaro Musella","url":"https://youtu.be/MQDrJ01WS34"},
+		{"title":"Malena: Main theme by Emilio Mottola · Gennaro Musella","url":"https://youtu.be/-ezcrI5NJEg"},
+		{"title":"Love Affair: Main theme by Emilio Mottola · Gennaro Musella","url":"https://youtu.be/MjzAz2Pdv-8"},
+		{"title":"Once Upon a Time in America: Deborah's Theme by Emilio Mottola · Gennaro Musella","url":"https://youtu.be/pRR2Y_vxFbg"},
+		{"title":"Tornatore Suite: II. Nuovo Cinema Paradiso (Main Theme) (For Cello and Piano) · Luca Pincini · Gilda Buttà","url":"https://youtu.be/AjVXT05mO6Y"},
+		{"title":"John Williams: Schindler´s List Theme - Itzhak Perlman","url":"https://youtu.be/cLgJQ8Zj3AA"},
+		{"title":"Ryuichi Sakamoto - Bibo No Aozora","url":"https://youtu.be/wku3rL_Tf4A"},
+		{"title":"Ryuichi Sakamoto - Aqua","url":"https://youtu.be/W51tXJ1YwuA"},
+		{"title":"Ryuichi Sakamoto - Amore","url":"https://youtu.be/u0X5jIZLbYY"},
+		{"title":"Ryuichi Sakamoto - Solitude","url":"https://youtu.be/_AVpYO-lx9Y"},
+		{"title":"冷静と情熱のあいだ · Ryo Yoshimata","url":"https://youtu.be/2TLsfi1HAnY"},
+		{"title":"For Sure · Ryo Yoshimata","url":"https://youtu.be/f8WNPtEDDCs"}]
+}
+
