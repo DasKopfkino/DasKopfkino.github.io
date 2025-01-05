@@ -43,7 +43,25 @@
 </head>
 <body>      
     <!-- SCM Music Player https://www.scmplayer.net -->
+  <script id="player-config" type="text/json" src="/bgm-data-config.json"></script>
+<script type="text/javascript">
+  window.addEventListener('DOMContentLoaded', function() {
+    var scriptTag = document.getElementById('player-config');
+    var configFile = scriptTag.getAttribute('src');
 
+    fetch(configFile)
+      .then(response => response.json())
+      .then(config => {
+        var script = document.createElement('script');
+        script.setAttribute('type', 'text/javascript');
+        script.setAttribute('src', 'https://taekwon.rsvp/scm-music-player-github/script.js');
+        //script.setAttribute('src', 'https://raw.githubusercontent.com/DasKopfkino/DasKopfkino.github.io/4725dbb3e9e1abfd48b2185257c83ee0c267b1b2/scm-music-player-github/script.js');
+        script.setAttribute('data-config', JSON.stringify(config));
+        document.body.appendChild(script);
+      })
+      .catch(error => console.error('Error loading player config:', error));
+  });
+</script>
 
   <!-- SCM Music Player script end -->
   <!-- Google Tag Manager (noscript) -->
