@@ -3,18 +3,64 @@
 <head>
     <meta charset="utf-8">
     <title>SCM Music Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
     <link rel="icon" type="image/png" href="icon.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/scm.css?168">
     <link rel="stylesheet" id="skin" data-bind="attr:{href:skin}">
     <style>
-        body { overflow: hidden; background: transparent; }
-        #contentW, #playlistW, #playerW { position: absolute; overflow: hidden; }
-        #contentW { z-index: 10; top: 0; bottom: 0; left: 0; right: 0; }
-        #playlistW { z-index: 1; right: 0; top: 0; bottom: 0; width: 0; }
-        #playerW { z-index: 2; left: 0; right: 0; height: 0; }
-        #content { position: relative; height: 100%; width: 100%; }
+        body {
+            overflow: hidden;
+            background: transparent;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #contentW, #playlistW, #playerW {
+            position: absolute;
+            overflow: hidden;
+        }
+
+        #contentW {
+            z-index: 10;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        #playlistW {
+            z-index: 1;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 0;
+        }
+
+        #playerW {
+            z-index: 2;
+            left: 0;
+            right: 0;
+            height: 0;
+        }
+
+        #content {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            #playlistW {
+                width: 100%;
+            }
+
+            #playerW {
+                height: 50px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -27,6 +73,18 @@
                     if (elm.addEventListener) elm.addEventListener(evType, fn);
                     else if (elm.attachEvent) elm.attachEvent('on' + evType, fn);
                     else elm['on' + evType] = fn;
+                };
+
+                const addTouchEvent = (elm, evType, fn) => {
+                    const events = {
+                        click: 'touchstart',
+                        mousedown: 'pointerdown'
+                    };
+                    if ('ontouchstart' in window) {
+                        addEvent(elm, events[evType] || evType, fn);
+                    } else {
+                        addEvent(elm, evType, fn);
+                    }
                 };
 
                 let url = location.hash.substr(1).replace(/(\%27|')/g, '%2527');
@@ -79,7 +137,7 @@
                 setTimeout(() => {
                     $('#contentW, #playerW, #playlistW').each(function () {
                         ko.applyBindings(SCM, this);
-                        $(this).mousedown(() => false);
+                        addTouchEvent($(this).get(0), 'mousedown', () => false);
                     });
                 }, 200);
             });
@@ -99,7 +157,7 @@
             let shown = false;
             const checkAd = () => {
                 if (SCM.showAd() && !shown) {
-                    $.getScript('http://s3.buysellads.com/ac/bsa.js');
+                    $.getScript('https://s3.buysellads.com/ac/bsa.js');
                     shown = true;
                 }
             };
