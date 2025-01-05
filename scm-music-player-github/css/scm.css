@@ -50,5 +50,12 @@
     #title {
       white-space: nowrap;
       overflow: hidden;
-      animation: flowText 5s linear infinite;
+      animation: flowText 20s linear infinite;
     }
+
+#player #timer{
+/* left: 90px; */
+right: 120px;
+z-index: 2;
+background: rgb(255 255 255);
+}
