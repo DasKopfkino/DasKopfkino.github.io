@@ -47,7 +47,7 @@
         transform: translateX(-100%);
       }
     }
-    .text {
+    #title {
       white-space: nowrap;
       overflow: hidden;
       animation: flowText 5s linear infinite;
