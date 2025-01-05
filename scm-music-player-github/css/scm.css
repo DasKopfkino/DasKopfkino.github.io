@@ -39,3 +39,16 @@
   top:0; bottom:0; right:0; left:0;
 }
 #playlist .item{ cursor:pointer; padding:4px 5px; width:1000px; }
+@keyframes flowText {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    .text {
+      white-space: nowrap;
+      overflow: hidden;
+      animation: flowText 5s linear infinite;
+    }
