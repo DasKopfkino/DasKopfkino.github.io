@@ -16,7 +16,7 @@
 #player #play{ z-index:3; }
 #player .item{ z-index:2; }
 #player .bound{ position:relative;height:100%; }
-#player .text{ z-index:2; font-size:11px; height:20px; top:5px; cursor:default; }
+#player .text{ /*z-index:2;*/ font-size:11px; height:20px; top:5px; cursor:default; }
 #player .button,#player .ui-slider-handle{cursor:pointer; }
  
 #player #seekerSliderBase{ z-index:3; margin-left:-3px; top:9px; width:6px; height:7px; }
