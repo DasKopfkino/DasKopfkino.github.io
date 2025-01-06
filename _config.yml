@@ -14,7 +14,7 @@ title: "Das Kopfkino"
 # A description of your site for meta tag, search engine results.
 description:
 
-description_real: 머릿속 정리정돈을 위해 만든 공간입니다.<br>가끔 생각나면 놀러오세요.<br><a target="_self" href="https://taekwon.rsvp/Illness-of-the-body-and-mind" target="_self"><u>연락 안되어 미안합니다.</u></a> 언젠간 만나요.<br><br>태권 <br><br>
+description_real: 머릿속 정리정돈을 위해 만든 공간입니다.<br>가끔 생각나면 놀러오세요.<br><a target="_self" href="https://taekwon.rsvp/Illness-of-the-body-and-mind" target="_self"><u>연락 안되어 미안합니다.</u></a> 언젠간 만나요.<br><br>태권
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
 
@@ -41,6 +41,8 @@ navigation:
     url: /contact.html #mailto:taekwon.rhee@gmail.com
   - text: Guestbook
     url: /guest_book.html
+#  - text: Test Photo
+#    url: /photo.html
     
 # The shortname for your Disqus site to enable comments.
 disqus: opakes-kopfkino
