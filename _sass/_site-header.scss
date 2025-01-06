@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .site-header {
-  border-bottom: 1px solid _palette(border);
+  border-bottom: 0px solid _palette(border);
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
@@ -89,7 +89,7 @@
 }
 
 .site-description-real {
-  border-bottom: 1px solid _palette(border);
+  border-bottom: 1px dashed _palette(border);
   font-family: _font(primary);
   font-size: 0.7em;
   font-style: normal;
