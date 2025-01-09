@@ -5,7 +5,7 @@
 .obsidian/
 
 # All build files
-# _site/
+ _site/
 
 # DS_Store
 .DS_Store
