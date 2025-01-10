@@ -32,15 +32,15 @@ navigation:
   - text: Home
     url: /
   - text: About
-    url: /_about.html
+    url: /about.html
   - text: Archive
-    url: /_archive.html
+    url: /archive.html
 #  - text: Survey
 #    url: /survey.html
   - text: Contact
-    url: /_contact.html #mailto:taekwon.rhee@gmail.com
+    url: /contact.html #mailto:taekwon.rhee@gmail.com
   - text: Guestbook
-    url: /_guest_book.html
+    url: /guest_book.html
 #  - text: Test Photo
 #    url: /photo.html
     
