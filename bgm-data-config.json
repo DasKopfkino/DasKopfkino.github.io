@@ -4,7 +4,7 @@
 	"autoplay":true,
 	"shuffle":true,
 	"repeat":1,
-	"placement":"top",
+	"placement":"bottom",
 	"showplaylist":false,
 	"playlist":[
 		{"title":"Max Richter - Richter: On The Nature Of Daylight","url":"https://youtu.be/InyT9Gyoz_o"},
