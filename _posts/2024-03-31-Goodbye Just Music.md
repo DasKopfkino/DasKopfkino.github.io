@@ -6,6 +6,7 @@ date: 2024-03-31
 feature_image: images/2024-03-31/Justmusic1.jpeg
 tags:
   - thoughts
+comments: true
 ---
 2024년 3월 16일 문을 닫았다. 영영 닫았다. <!--more-->
 

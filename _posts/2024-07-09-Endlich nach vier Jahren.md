@@ -6,6 +6,7 @@ date: 2024-07-09
 feature_image: images/2024-07-09/sky.jpeg
 tags:
   - thoughts
+comments: true
 ---
 
 <!--more-->

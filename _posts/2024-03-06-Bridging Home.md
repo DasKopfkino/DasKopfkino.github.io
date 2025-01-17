@@ -3,9 +3,10 @@ layout: post
 title: Bridging Home
 description: "\bBridging Home"
 date: 2024-03-06
-feature_image:
+feature_image: 
 tags:
   - art
+comments: true
 ---
 {% include image_caption.html imageurl="/images/2024-03-06/Bridging Home 2.jpg" title="Bridging Home" caption="@Do Ho Suh, Bridging Home, Liverpool, 2010" %}
 

@@ -6,6 +6,7 @@ date: 2024-05-17
 feature_image: images/2024-05-17/dog_thinking.jpeg
 tags:
   - thoughts
+comments: true
 ---
 공원에서 멍때리거나 자려고 누웠을때, 샤워할 때 종종 이런 저런 생각을 하곤 한다. 중요한 것이 아니라고 여기면 곧잘 잊혀지곤 하는데, 종종 다시 되살아나는걸 보니 어쩌면 중요한 생각일수도.
 <!--more-->
